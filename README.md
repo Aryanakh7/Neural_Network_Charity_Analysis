@@ -12,9 +12,20 @@ There is a bulleted list that answers all six questions (15 pt)
 
 ### Data Preprocessing 
 
-What variable(s) are considered the target(s) for your model?
-What variable(s) are considered to be the features for your model?
-What variable(s) are neither targets nor features, and should be removed from the input data?
+The variable considered to be the target for the model is "IS_SUCCESSFUL"
+The features of the mode Include:
+
+- Affiliation
+- Classification
+- Use_Case
+- Organization
+- Income_AMT
+- Special_Considerations
+- Status
+- Ask_Amt
+- Application_Type
+
+Unnecessary variables such as the "EIN" and "NAME" were removed from the data, as they are neither targets nor features.
 
 ### Compiling, Training, and Evaluating the Model
 
