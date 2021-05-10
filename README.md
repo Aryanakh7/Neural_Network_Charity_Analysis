@@ -36,12 +36,16 @@ Unnecessary variables such as "EIN" and "NAME" were removed from the data, as th
 
 ![image](https://user-images.githubusercontent.com/75655852/117599613-1f749e80-b118-11eb-9d56-eb2606750790.png)
 
-With the optimization of the transformed data, the "STATUS" and "SPECIAL_CONSIDERATIONS" columns were removed in order to attempt to increase the model performance.
+With the optimization of the transformed data, the "STATUS" and "SPECIAL_CONSIDERATIONS" columns were removed in order to attempt to increase the model performance.The first layer of the Neurons were increased from 8 to 14 and the second layer from 6 to 8. The classification count to replace values was also decreased and a callback was created to save the model's weights every 4 to 5 epochs.
 
-Were you able to achieve the target model performance?
-What steps did you take to try and increase model performance?
+![image](https://user-images.githubusercontent.com/75655852/117600659-62d00c80-b11a-11eb-909b-5317c286b4a0.png)
+
+![image](https://user-images.githubusercontent.com/75655852/117600634-4df37900-b11a-11eb-806b-0885093d535f.png)
+
 
 ## Summary and recommendation 
+
+Were you able to achieve the target model performance?
 
 There is a summary of the results (2 pt)
 There is a recommendation on using a different model to solve the classification problem, and justification (3 pt)
