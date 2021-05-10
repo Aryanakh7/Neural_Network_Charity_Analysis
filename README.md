@@ -8,7 +8,7 @@ The purpose of this analysis is to create a Neural Network Binary Classification
 
 ## Results
 
-### Data Preprocessing 
+### Data Preprocessing  
 
 The variable considered to be the target for the model is "IS_SUCCESSFUL".
 
