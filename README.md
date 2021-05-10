@@ -1,6 +1,6 @@
 # Neural_Networks
 
-## Overview of the loan prediction risk analysis
+## Overview of The Loan Prediction Risk Analysis
 
 ## Summary Analysis
 
@@ -41,7 +41,7 @@ With the optimization of the transformed data, the "STATUS" and "SPECIAL_CONSIDE
 ![image](https://user-images.githubusercontent.com/75655852/117600634-4df37900-b11a-11eb-806b-0885093d535f.png)
 
 
-## Summary and recommendation 
+## Summary and Recommendation 
 
 Despite the measures taken, the target model performance of 75% accuracy was not achieved and there was little to no difference in the accuracy between the pre-optimized and the post-optimized model.
 
