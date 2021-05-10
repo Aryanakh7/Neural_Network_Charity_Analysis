@@ -14,7 +14,7 @@ There is a bulleted list that answers all six questions (15 pt)
 
 The variable considered to be the target for the model is "IS_SUCCESSFUL".
 
-The features of the mode Include:
+The features of the model Include:
 
 - Affiliation
 - Classification
@@ -26,11 +26,18 @@ The features of the mode Include:
 - Ask_Amt
 - Application_Type
 
-Unnecessary variables such as the "EIN" and "NAME" were removed from the data, as they are neither targets nor features.
+Unnecessary variables such as "EIN" and "NAME" were removed from the data, as they are neither targets nor features.
 
 ### Compiling, Training, and Evaluating the Model
 
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
+- In order to achieve bette performance and to create more complex structures in the data, the Neural Network used Relu and its nonlinear activation functions. This explains the reason behind the selection of 8 neurons in the first layer, 6 in the second layer, and the output layer having a sigmoid activation function. 
+
+![image](https://user-images.githubusercontent.com/75655852/117599558-0370fd00-b118-11eb-8ae1-6e7a11dc0512.png)
+
+![image](https://user-images.githubusercontent.com/75655852/117599613-1f749e80-b118-11eb-9d56-eb2606750790.png)
+
+With the optimization of the transformed data, the "STATUS" and "SPECIAL_CONSIDERATIONS" columns were removed in order to attempt to increase the model performance.
+
 Were you able to achieve the target model performance?
 What steps did you take to try and increase model performance?
 
